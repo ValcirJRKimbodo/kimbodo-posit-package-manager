@@ -29,5 +29,5 @@ jobs:
           context: .
           push: true
           tags: |
-            ${{ secrets.DOCKERHUB_USERNAME }}/kimbodo-posit:${{ github.ref_name }}
-            ${{ secrets.DOCKERHUB_USERNAME }}/kimbodo-posit:latest
+            ${{ secrets.DOCKERHUB_USERNAME }}/kimbodo-posit-package-manager:${{ github.ref_name }}
+            ${{ secrets.DOCKERHUB_USERNAME }}/kimbodo-posit-package-manager:latest
